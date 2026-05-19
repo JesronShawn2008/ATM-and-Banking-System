@@ -48,155 +48,8 @@ Specifying the context and requirements of a system
 
 → Modeling the basic flow of events in a sina use case.
 
-[Use Case ATM (1).drawio](https://github.com/user-attachments/files/28023799/Use.Case.ATM.1.drawio)
-<mxfile host="app.diagrams.net">
-  <diagram name="Page-1" id="DrYduVZ9X2-_5gO6Vv_p">
-    <mxGraphModel dx="1030" dy="562" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" background="none" math="0" shadow="0">
-      <root>
-        <mxCell id="0" />
-        <mxCell id="1" parent="0" />
-        <mxCell id="tPzEjVvB05X2xSHMKq8J-5" parent="1" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" value="BANK SERVER&lt;div&gt;&lt;br&gt;&lt;/div&gt;" vertex="1">
-          <mxGeometry height="60" width="30" x="660" y="190" as="geometry" />
-        </mxCell>
-        <mxCell id="tPzEjVvB05X2xSHMKq8J-7" parent="1" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" value="ATM TECHNICIAN&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" vertex="1">
-          <mxGeometry height="60" width="30" x="110" y="430" as="geometry" />
-        </mxCell>
-        <mxCell id="tPzEjVvB05X2xSHMKq8J-8" parent="1" style="ellipse;whiteSpace=wrap;html=1;" value="Authentication" vertex="1">
-          <mxGeometry height="60" width="90" x="320" y="20" as="geometry" />
-        </mxCell>
-        <mxCell id="tPzEjVvB05X2xSHMKq8J-11" parent="1" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" value="CUSTOMER&lt;div&gt;&lt;br&gt;&lt;/div&gt;" vertex="1">
-          <mxGeometry height="60" width="30" x="100" y="100" as="geometry" />
-        </mxCell>
-        <mxCell id="tPzEjVvB05X2xSHMKq8J-12" parent="1" style="ellipse;whiteSpace=wrap;html=1;" value="Cash Withdrawal" vertex="1">
-          <mxGeometry height="60" width="100" x="315" y="100" as="geometry" />
-        </mxCell>
-        <mxCell id="tPzEjVvB05X2xSHMKq8J-13" parent="1" style="ellipse;whiteSpace=wrap;html=1;" value="Balance Inquiry" vertex="1">
-          <mxGeometry height="60" width="100" x="315" y="170" as="geometry" />
-        </mxCell>
-        <mxCell id="tPzEjVvB05X2xSHMKq8J-14" parent="1" style="ellipse;whiteSpace=wrap;html=1;" value="Fund Transfer" vertex="1">
-          <mxGeometry height="50" width="100" x="315" y="250" as="geometry" />
-        </mxCell>
-        <mxCell id="tPzEjVvB05X2xSHMKq8J-15" parent="1" style="ellipse;whiteSpace=wrap;html=1;" value="Cash Replenishment" vertex="1">
-          <mxGeometry height="60" width="100" x="320" y="350" as="geometry" />
-        </mxCell>
-        <mxCell id="tPzEjVvB05X2xSHMKq8J-16" parent="1" style="ellipse;whiteSpace=wrap;html=1;" value="Hardware Maintenance" vertex="1">
-          <mxGeometry height="50" width="100" x="322.5" y="420" as="geometry" />
-        </mxCell>
-        <mxCell id="tPzEjVvB05X2xSHMKq8J-17" parent="1" style="ellipse;whiteSpace=wrap;html=1;" value="Software Updates" vertex="1">
-          <mxGeometry height="60" width="95" x="327.5" y="480" as="geometry" />
-        </mxCell>
-        <mxCell id="tPzEjVvB05X2xSHMKq8J-19" edge="1" parent="1" style="endArrow=none;html=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="tPzEjVvB05X2xSHMKq8J-8" value="">
-          <mxGeometry height="50" relative="1" width="50" as="geometry">
-            <mxPoint x="160" y="150" as="sourcePoint" />
-            <mxPoint x="300" y="60" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="tPzEjVvB05X2xSHMKq8J-20" edge="1" parent="1" style="endArrow=none;html=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="tPzEjVvB05X2xSHMKq8J-12" value="">
-          <mxGeometry height="50" relative="1" width="50" as="geometry">
-            <mxPoint x="160" y="160" as="sourcePoint" />
-            <mxPoint x="300" y="130" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="tPzEjVvB05X2xSHMKq8J-21" edge="1" parent="1" style="endArrow=none;html=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="tPzEjVvB05X2xSHMKq8J-13" value="">
-          <mxGeometry height="50" relative="1" width="50" as="geometry">
-            <mxPoint x="160" y="170" as="sourcePoint" />
-            <mxPoint x="290" y="200" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="tPzEjVvB05X2xSHMKq8J-22" edge="1" parent="1" style="endArrow=none;html=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="tPzEjVvB05X2xSHMKq8J-14" value="">
-          <mxGeometry height="50" relative="1" width="50" as="geometry">
-            <mxPoint x="160" y="180" as="sourcePoint" />
-            <mxPoint x="290" y="270" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="tPzEjVvB05X2xSHMKq8J-23" edge="1" parent="1" source="tPzEjVvB05X2xSHMKq8J-8" style="endArrow=none;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" value="">
-          <mxGeometry height="50" relative="1" width="50" as="geometry">
-            <mxPoint x="430" y="50" as="sourcePoint" />
-            <mxPoint x="640" y="220" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="tPzEjVvB05X2xSHMKq8J-24" edge="1" parent="1" source="tPzEjVvB05X2xSHMKq8J-12" style="endArrow=none;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" value="">
-          <mxGeometry height="50" relative="1" width="50" as="geometry">
-            <mxPoint x="430" y="130" as="sourcePoint" />
-            <mxPoint x="630" y="230" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="tPzEjVvB05X2xSHMKq8J-25" edge="1" parent="1" source="tPzEjVvB05X2xSHMKq8J-13" style="endArrow=none;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" value="">
-          <mxGeometry height="50" relative="1" width="50" as="geometry">
-            <mxPoint x="430" y="200" as="sourcePoint" />
-            <mxPoint x="620" y="250" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="tPzEjVvB05X2xSHMKq8J-26" edge="1" parent="1" source="tPzEjVvB05X2xSHMKq8J-14" style="endArrow=none;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" value="">
-          <mxGeometry height="50" relative="1" width="50" as="geometry">
-            <mxPoint x="430" y="280" as="sourcePoint" />
-            <mxPoint x="620" y="270" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="tPzEjVvB05X2xSHMKq8J-27" edge="1" parent="1" style="endArrow=none;html=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="tPzEjVvB05X2xSHMKq8J-15" value="">
-          <mxGeometry height="50" relative="1" width="50" as="geometry">
-            <mxPoint x="160" y="450" as="sourcePoint" />
-            <mxPoint x="450" y="250" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="tPzEjVvB05X2xSHMKq8J-28" edge="1" parent="1" style="endArrow=none;html=1;rounded=0;" target="tPzEjVvB05X2xSHMKq8J-16" value="">
-          <mxGeometry height="50" relative="1" width="50" as="geometry">
-            <mxPoint x="160" y="460" as="sourcePoint" />
-            <mxPoint x="450" y="250" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="tPzEjVvB05X2xSHMKq8J-29" edge="1" parent="1" style="endArrow=none;html=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="tPzEjVvB05X2xSHMKq8J-17" value="">
-          <mxGeometry height="50" relative="1" width="50" as="geometry">
-            <mxPoint x="160" y="470" as="sourcePoint" />
-            <mxPoint x="450" y="250" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="tPzEjVvB05X2xSHMKq8J-30" edge="1" parent="1" source="tPzEjVvB05X2xSHMKq8J-15" style="endArrow=none;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" value="">
-          <mxGeometry height="50" relative="1" width="50" as="geometry">
-            <mxPoint x="400" y="300" as="sourcePoint" />
-            <mxPoint x="630" y="290" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="tPzEjVvB05X2xSHMKq8J-31" edge="1" parent="1" source="tPzEjVvB05X2xSHMKq8J-16" style="endArrow=none;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" value="">
-          <mxGeometry height="50" relative="1" width="50" as="geometry">
-            <mxPoint x="400" y="300" as="sourcePoint" />
-            <mxPoint x="640" y="300" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="tPzEjVvB05X2xSHMKq8J-32" edge="1" parent="1" source="tPzEjVvB05X2xSHMKq8J-17" style="endArrow=none;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" value="">
-          <mxGeometry height="50" relative="1" width="50" as="geometry">
-            <mxPoint x="400" y="300" as="sourcePoint" />
-            <mxPoint x="650" y="310" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="tPzEjVvB05X2xSHMKq8J-34" edge="1" parent="1" style="endArrow=none;html=1;rounded=0;" value="">
-          <mxGeometry height="50" relative="1" width="50" as="geometry">
-            <mxPoint x="200" as="sourcePoint" />
-            <mxPoint x="200" y="560" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="tPzEjVvB05X2xSHMKq8J-35" edge="1" parent="1" style="endArrow=none;html=1;rounded=0;" value="">
-          <mxGeometry height="50" relative="1" width="50" as="geometry">
-            <mxPoint x="200" as="sourcePoint" />
-            <mxPoint x="560" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="tPzEjVvB05X2xSHMKq8J-36" edge="1" parent="1" style="endArrow=none;html=1;rounded=0;" value="">
-          <mxGeometry height="50" relative="1" width="50" as="geometry">
-            <mxPoint x="560" y="560" as="sourcePoint" />
-            <mxPoint x="560" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="tPzEjVvB05X2xSHMKq8J-37" edge="1" parent="1" style="endArrow=none;html=1;rounded=0;" value="">
-          <mxGeometry height="50" relative="1" width="50" as="geometry">
-            <mxPoint x="200" y="560" as="sourcePoint" />
-            <mxPoint x="560" y="560" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
-      </root>
-    </mxGraphModel>
-  </diagram>
-</mxfile>
+<img width="832" height="728" alt="image" src="https://github.com/user-attachments/assets/c4b65b67-5d81-4a3b-84b0-330bb15a9d54" />
+
 
 
 
@@ -219,6 +72,8 @@ Visually express any specific needs of a system and disseminate that information
 
 Create detailed charts that…
 
+<img width="753" height="732" alt="image" src="https://github.com/user-attachments/assets/3b6dd90d-1a59-4b72-9a3b-6391b925721d" />
+
 
 
 # COMMUNICTION DIAGRAM:
@@ -228,6 +83,7 @@ A communication diagram offers the same information as a sequence diagram, but w
 Communication diagrams offer benefits similar to sequence diagrams, but they will offer a better understanding of how components communicate and interact with each other rather than solely emphasizing the sequence of events. They can be a useful reference for businesses, organizations, and engineers who need to visualize and understand the physical communications within a program. Try drawing a sequence diagram to:
 
 
+<img width="873" height="671" alt="image" src="https://github.com/user-attachments/assets/d505750b-e95f-4509-9498-5f439ab99674" />
 
 
 # PACKAGE DIAGRAM:
@@ -239,6 +95,7 @@ organization of the layered architecture within any UML classifier, such as a so
 A well-designed package diagram provides numerous benefits to those looking to create a visualization of their UML system or project.
 
 
+<img width="947" height="681" alt="image" src="https://github.com/user-attachments/assets/e944a491-769a-4767-bdcd-942ccf70e78b" />
 
 
 
@@ -258,6 +115,7 @@ Demonstrate the logic of an algorithm.
 Describe the steps performed in a UML use case.
 
 
+<img width="434" height="730" alt="image" src="https://github.com/user-attachments/assets/9863525a-5696-429a-8122-9d2de72a1505" />
 
 
 
@@ -266,6 +124,10 @@ Describe the steps performed in a UML use case.
 A sequence diagram is a type of intera jon diagram because it describes how- and in what order a group of objects works together. These diagrams are used by software developers and business professionals to understand requirements for
 
 a new system or to document an existing process. Sequence diagrams are sometimes known as event diagrams or event scenarios.
+
+<img width="762" height="724" alt="image" src="https://github.com/user-attachments/assets/823e74e2-c675-4ad4-849f-f145cd92e69e" />
+
+
 
 
 # BENEFITS OF SEQUENCE DIAGRAM
